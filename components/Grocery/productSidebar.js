@@ -8,7 +8,7 @@ const ProductSidebar = () => {
   return (
     <div className="">
       <div className="flex border-b border-gray-100 py-3 items-center justify-between">
-        <h2 className="text-3xl"> Filter Results </h2>
+        <h2 className="text-2xl"> Filter Results </h2>
         <Link href={"#"} className="text-blue-450 hover:underline">
           {" "}
           Clear All

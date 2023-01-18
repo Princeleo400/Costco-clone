@@ -75,9 +75,9 @@ const SmallNavbar = () => {
               <div className="dropdown">
                 <li className="p-3 flex items-center text-white">
                   <AiOutlineMenu size={20} />
-                  <Link href="/">Shop</Link>
+                  <Link href="#">Shop</Link>
                 </li>
-                <div class="dropdown-content px-2">
+                <div className="dropdown-content px-2">
                   <div className="flex dropdown-list">
                     <div className="dropdown-listone bg-white">
                       <Link

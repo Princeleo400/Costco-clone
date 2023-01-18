@@ -10,13 +10,13 @@ const Grocery = () => {
 
   return (
     <div className="flex md:flex-row flex-col">
-      <div className="w-3/12 p-3 hidden sm:block">
+      <div className="w-3/12 p-3 hidden md:block">
       <ProductSidebar />
       </div>
 
       <div className="sm:w-9/12 w-full">
         <ProductHeader />
-        <div className=" grid w-full p-2 md:grid-cols-4 m:grid-cols-4 grid-cols-2 gap-4 border-y border-gray-200">
+        <div className=" grid w-full p-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-4 border-y border-gray-200">
           <ProductItem
             img="/assets/imageService (6).webp"
             title="Cold & Frozen"

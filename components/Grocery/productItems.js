@@ -10,7 +10,7 @@ const ProductItem = ({ title, price, description, img }) => {
       <div className="">
         <div className="p-1">
           <div className="relative cursor-pointer img-box">
-            <Image src={img} alt="" width={300} height={70} />
+            <Image src={img} alt="" width={1300} height={170} />
             <div className="absolute img-view hidden w-full bottom-5 bg-white border border-blue-550 text-blue-550 p-3 text-center">
               <p> Quick view </p>
             </div>

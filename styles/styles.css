@@ -60,6 +60,9 @@ ul a {
   position: absolute;
   min-width: 70%;
   z-index: 1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  padding: 10px 0;
 }
 .dropdown-listtwo {
   /* display: none; */
@@ -106,6 +109,21 @@ ul a {
 @media only screen and (min-width: 1025px) {
   .mobile {
     display: none;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .top-tel{
+    display: flex !important;
+    margin-left: auto;
+    justify-content: end;
+  }
+
+  .box-item{
+    display: none ;
+  }
+
+  .top-tel:hover ~ .box-item {
+    display: block !important;
   }
 }
 

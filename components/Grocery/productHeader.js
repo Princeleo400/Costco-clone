@@ -46,7 +46,7 @@ const ProductHeader = ({ title, price, description, img }) => {
         <div className="flex py-5 flex-wrap gap-3">
           {testArray.map((item, idx) => (
             <>
-              <div className="flex border p-2 mr-4 text-sm text-blue-450 items-center">
+              <div key={idx} className="flex border p-2 mr-4 text-sm text-blue-450 items-center">
                 {item.name}
                 <FaTimes onClick={() => removeFields(idx)} size={10} className="ml-3"/>
               </div>
