@@ -129,6 +129,23 @@ ul a {
   .top-tel:hover ~ .box-item {
     display: block !important;
   }
+
+  .pi-items{
+    display: flex;
+  }
+
+  .count-box {
+    height: 33px;
+  }
+
+  .btn-count{
+    padding: 10px;
+    line-height: 0;
+  }
+  .pi-img{
+    width: 300px;
+    padding-right: 10px;
+  }
 }
 
 
