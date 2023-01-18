@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Membership from "./footer/Membership";
-import GroceryItem from "./Grocery/GroceryItem";
 import ProductHeader from "./Grocery/productHeader";
 import ProductItem from "./Grocery/productItems";
 import ProductSidebar from "./Grocery/productSidebar";
