@@ -27,7 +27,7 @@ const DeliveryNav = ({home = true}) => {
       {home && (
         <div className="box text-sm ml-auto">
           <Link
-            className="hidden top-tel ml-auto text-blue-450 text-lg"
+            className="hidden top-tel ml-auto text-blue-450 text-md"
             href={"#"}
           >
             {" "}
